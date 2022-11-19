@@ -1224,7 +1224,3 @@ function makeSpaceBeforeCapitalLetter($string)
     {
         return Campaign::where('active_for_customer', 1)->On()->orderBy('start_from', 'asc')->get();
     }
-
-   /**
-    * VERSION 4.0::ENDS
-    */
